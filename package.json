@@ -1,0 +1,24 @@
+{
+  "name": "OarcleDB",
+  "version": "1.0.0",
+  "description": "Add a description of the OarcleDB module",
+  "main": "index.js",
+  "scripts": {
+    "test": "OarcleDB_testme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "OarcleDB"
+  },
+  "author": "Hypertherm Associate",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "*",
+    "hapi": "*",
+    "hapi-plugin-oracledb": "^3.0.3",
+    "lodash.filter": "*",
+    "lodash.take": "*",
+    "request": "*",
+    "vision": "^4.1.1"
+  }
+}
